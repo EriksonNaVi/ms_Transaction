@@ -29,7 +29,7 @@ public class TransactionController {
   }
   
   @PostMapping
-  public Mono<Transaction> register(@RequestBody Transaction transaction){
+  public Mono<Transaction> createTransaction(@RequestBody Transaction transaction){
       return transactionService.save(transaction);
   }
   

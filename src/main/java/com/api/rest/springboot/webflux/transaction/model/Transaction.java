@@ -15,7 +15,7 @@ public class Transaction {
   private String id;
   
   @NotEmpty
-  private float amount;
+  private Float amount;
   
   @NotEmpty
   private String creditCardNumber;
@@ -27,6 +27,6 @@ public class Transaction {
   private String documentType;
   
   @NotEmpty
-  private String transferType;
+  private String transactionType;
 
 }
